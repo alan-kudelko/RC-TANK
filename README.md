@@ -38,21 +38,21 @@ Project of full-metal RC-TANK in 1:11 scale made from 3mm thick steel sheets
 </picture>
 
 <picture>
+ <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/Injora540_Parameters_Comparison.png">
+ <source media="(prefers-color-scheme: light)" srcset="Drivetrain/Injora540_Parameters_Comparison.png">
+ <img alt="YOUR-ALT-TEXT" src="Drivetrain/Injora540_Parameters_Comparison.png">
+</picture>
+
+<picture>
  <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Selection.png">
  <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Selection.png">
  <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Selection.png">
 </picture>
-
+### Gearbox selection
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Gearbox_1_50.png">
  <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Gearbox_1_50.png">
  <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Gearbox_1_50.png">
-</picture>
-
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
- <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
- <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Gearbox_Selection.png">
 </picture>
 
 <picture>
@@ -66,3 +66,10 @@ Project of full-metal RC-TANK in 1:11 scale made from 3mm thick steel sheets
  <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Gearbox_dims_2.png">
  <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Gearbox_dims_2.png">
 </picture>
+
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
+ <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
+ <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Gearbox_Selection.png">
+</picture>
+
