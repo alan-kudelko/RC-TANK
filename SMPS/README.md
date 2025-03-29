@@ -4,11 +4,12 @@ Subproject of switch mode power supply for use in my RC-TANK project. Power supp
 
 1. Input voltage 12.5V - 35V  
 2. Output voltages  
+
 | Voltage | Maximum current |
 |--------|--------|
-| 7.4V   | 40 [A] |
-| 5V     |  5 [A] |
-| 6V     | 20 [A] |
-| 12V    | 20 [A] |
+| 7.4 [V]   | 40 [A] |
+| 5 [V]     |  5 [A] |
+| 6 [V]     | 20 [A] |
+| 12 [V]   | 20 [A] |
 
 3. Overcurrent protection, overtemperature protection, undervoltage protection
