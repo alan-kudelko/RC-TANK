@@ -1,15 +1,23 @@
 # Full-metal RC-TANK in 1:11 Scale
+Project of full-metal RC-TANK in 1:11 scale made from 3mm thick steel sheets  
+### Requirements:
+1. Dimensions  
 
-Projekt czołgu na zdalne sterowanie wykonanego w skali 1:11 z blachy stalowej o grubości 3mm.
-Projekt zakłada:
+| Dimension    |         |
+|--------------|---------|
+| $Length$     | 70 [cm] |
+| $Width_{1}$  | 32 [cm] |
+| $Width_{2}$  | 42 [cm] |
+| $Height$     | 20 [cm] |
+| $Ground\ clearance$ | 5 [cm] |
 
-| Dimensions|      |
-|--------|---------|
-| Length | 70 [cm] |
-| Width  | 32 [cm] |
-| Height | 20 [cm] |
+###### $Width_{1}$ - Width of tank without tracks  
+###### $Width_{2}$ - Width of tank with tracks  
+2. Maximum speed  $V_{Max}=10\frac{km}{h}$  
+3. Input battery voltage $U_{In}=12.5V - 35V$  
+4. DC Motors voltage $U_{m}=7.4V$  
 
-## DC Motors selection
+### DC Motors selection
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/Injora540_13T_Parameters.png">
  <source media="(prefers-color-scheme: light)" srcset="Drivetrain/Injora540_13T_Parameters.png">
@@ -24,5 +32,10 @@ Projekt zakłada:
  <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
  <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
  <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Gearbox_Selection.png">
+</picture>
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Gearbox_1_50.png">
+ <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Gearbox_1_50.png">
+ <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Gearbox_1_50.png">
 </picture>
 
