@@ -11,18 +11,18 @@ Projekt zakłada:
 
 ## DC Motors selection
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="Injora540_13T_Parameters.png">
- <source media="(prefers-color-scheme: light)" srcset="Injora540_13T_Parameters.png">
- <img alt="YOUR-ALT-TEXT" src="Injora540_13T_Parameters.png">
+ <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/Injora540_13T_Parameters.png">
+ <source media="(prefers-color-scheme: light)" srcset="Drivetrain/Injora540_13T_Parameters.png">
+ <img alt="YOUR-ALT-TEXT" src="Drivetrain/Injora540_13T_Parameters.png">
 </picture>
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="DC_Motor_Selection.png">
- <source media="(prefers-color-scheme: light)" srcset="DC_Motor_Selection.png">
- <img alt="YOUR-ALT-TEXT" src="DC_Motor_Selection.png">
+ <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Selection.png">
+ <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Selection.png">
+ <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Selection.png">
 </picture>
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="DC_Motor_Gearbox_Selection.png">
- <source media="(prefers-color-scheme: light)" srcset="DC_Motor_Gearbox_Selection.png">
- <img alt="YOUR-ALT-TEXT" src="DC_Motor_Gearbox_Selection.png">
+ <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
+ <source media="(prefers-color-scheme: light)" srcset="Drivetrain/DC_Motor_Gearbox_Selection.png">
+ <img alt="YOUR-ALT-TEXT" src="Drivetrain/DC_Motor_Gearbox_Selection.png">
 </picture>
 
