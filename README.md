@@ -195,7 +195,7 @@ Gate charge losses were negligible that is why they are not included
 Overall simplified schematic of whole SMPS will look similiar to that:
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="SMPS/SMPS_Simplified.png">
- <source media="(prefers-color-scheme: light)" srcset="SMPS/SMPS_Simplified.png">
- <img alt="YOUR-ALT-TEXT" src="SMPS/SMPS_Simplified.png">
+ <source media="(prefers-color-scheme: dark)" srcset="SMPS/SMPS_Simplified.PNG">
+ <source media="(prefers-color-scheme: light)" srcset="SMPS/SMPS_Simplified.PNG">
+ <img alt="YOUR-ALT-TEXT" src="SMPS/SMPS_Simplified.PNG">
 </picture>
