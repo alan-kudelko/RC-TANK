@@ -94,7 +94,7 @@ Using a formula 1) we can calculate maximum theoretical speed of a tank.
 1) $V_{Max}=\pi\frac{D*rpm}{60}=1.63\frac{m}{s}=5.88\frac{km}{h} $
 
 ### 5. Switch mode power supply design
-Switch mode power supply should be able to generate all the necessery voltages for use in the tank. That are 7.4V for DC motor, 5V for controll logic, 6V for servomechanisms and 12V for additional devices such as DC fans. Additionally it should feature a wide range of input voltages for instance 12.5V - 35V. On top of that power supply should have shortcircuit protection, undervoltage protection and overtemperature protection.
+Switch mode power supply should be able to generate all the necessery voltages for use in the tank. That are 7.4V for DC motor, 5V for controll logic, 6V for servomechanisms and 12V for additional devices such as DC fans. Additionally it should feature a wide range of input voltages for instance 12.5V - 35V. On top of that power supply should have shortcircuit protection, undervoltage protection and overtemperature protection. Moreover, in order order to limit inrush current for the circuit I decided to use high-side mosfet as softstart.
 
 Tab.5.1 Voltages and current requirements
 
@@ -120,7 +120,8 @@ Tab.5.2 Design requirements for section 7.4V
 | Coil core material | T130-52 |
 | Coil wire diameter | 2.36 [mm] |
 | Switching transistors | IXTH94N20X4 |
-| Conduction and switching losses in transistors | 41 [W] |
+| Conduction and switching losses per transistor | 22.5 [W] |
+| Total power losses| 45 [W]|
 | PWM Controller | TL3843 |
 | Mosfet driver | IRS2008 |
 
@@ -136,7 +137,8 @@ Tab.5.3 Design requirements for section 12V
 | Coil core material | T106-26B |
 | Coil wire diameter | 1.60 [mm] |
 | Switching transistors | STP60NF06 |
-| Conduction and switching losses in transistors | |
+| Conduction and switching losses per transistor | 16.6 [W]|
+| Total power losses | 33.2 [W]|
 | PWM Controller | TL3843 |
 | Mosfet driver | IRS2008 |
 
@@ -151,10 +153,11 @@ Tab.5.4 Design requirements for section 6V
 | Coil inductance min. | 16 [uH] |
 | Coil core material | T106-26B |
 | Coil wire diameter | 1.60 [mm] |
-| Switching transistors | STP60NF06 |
-| Conduction and switching losses in transistors | |
-| Freewheeling diode| |
-| Conduction losses in freewheeling diode| |
+| Switching transistor | STP60NF06 |
+| Freewheeling diode| RHRP3060|
+| Conduction and switching losses in transistors | 16.6 [W] |
+| Conduction losses in freewheeling diode| 14 [W]|
+| Total power losses | 30.6 [W]|
 | PWM Controller | TL3843 |
 | Mosfet driver | IRS20752 |
 
@@ -169,9 +172,30 @@ Tab.5.5 Design requirements for section 5V
 | Coil inductance min. | 16 [uH] |
 | Coil core material | T72-52 |
 | Coil wire diameter | 0.80 [mm] |
-| Switching transistors | STP60NF06 |
-| Conduction and switching losses in transistors | 1.3[W] |
-| Freewheeling diode| |
+| Switching transistor | STP60NF06 |
+| Freewheeling diode| SB560 |
+| Conduction and switching losses in transistors | 2.95 [W] |
 | Conduction losses in freewheeling diode| 2.8 [W]|
+| Total power losses | 5.75 [W]|
 | PWM Controller | TL3843 |
 | Mosfet driver | IRS20752 |
+
+Tab.5.6 Design requirements for input section
+
+| Voltage | Maximum power|
+|-----------|---------|
+| Input voltage | 12.5 - 35 [V]|
+| Input current | 85 [A]|
+| Softstart transistor | IRF100P218AKMA1 |
+| Conduction and switching losses in transistors | 9.25 [W] |
+
+Mosfet power losses were calculated using online calculator https://www.heatsinkcalculator.com/mosfet-power-loss-calculator.html   
+Gate charge losses were negligible that is why they are not included
+
+Overall simplified schematic of whole SMPS will look similiar to that:
+
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="Drivetrain/SMPS_Simplified.png">
+ <source media="(prefers-color-scheme: light)" srcset="Drivetrain/SMPS_Simplified.png">
+ <img alt="YOUR-ALT-TEXT" src="Drivetrain/SMPS_Simplified.png">
+</picture>
