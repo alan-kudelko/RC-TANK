@@ -100,9 +100,9 @@ Gate charge losses were negligible that is why they are not included
 Overall simplified schematic of whole SMPS will look similiar to that:
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="SMPS/SMPS_Simplified.PNG">
- <source media="(prefers-color-scheme: light)" srcset="SMPS/SMPS_Simplified.PNG">
- <img alt="YOUR-ALT-TEXT" src="SMPS/SMPS_Simplified.PNG">
+ <source media="(prefers-color-scheme: dark)" srcset="SMPS_Simplified.PNG">
+ <source media="(prefers-color-scheme: light)" srcset="SMPS_Simplified.PNG">
+ <img alt="YOUR-ALT-TEXT" src="SMPS_Simplified.PNG">
 </picture>
 
 Current project of PCB board is a proof of concept which will allow to test the following:
